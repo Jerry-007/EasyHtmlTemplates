@@ -1,0 +1,18 @@
+body{
+    margin-top: 3rem;
+    background-color: #333333;
+    color:#e1f4f3;
+}
+.card{
+    width: 200px;
+    color: #333333;
+    margin: 0rem 2rem;
+}
+.c-btn{
+    background-color: #706c61;
+    color:#e1f4f3
+}
+.c-btn:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.3s;
+}
