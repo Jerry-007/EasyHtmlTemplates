@@ -6,8 +6,8 @@ const Templates = ({ templates }) => {
   return (
     <>
       <div className="d-flex flex-column justify-content-center align-items-center">
-        <a type="button" href="/createtemplate" className="btn c-btn">Create Template</a>
-        <div className="d-flex flex-row flex-wrap mt-5">
+        <a type="button" href="/createtemplate" className="btn btn-lg c-btn">Create Template</a>
+        <div className="d-flex justify-content-center flex-row flex-wrap mt-4">
         {templateList}
         </div>
       </div>
